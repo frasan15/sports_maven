@@ -38,7 +38,7 @@ public void test() throws SportsException {
     assertEquals ("Empty list expected", 0,ls.size());
     ls = sports.getCategoriesForActivity("Trekking");
     assertEquals ("[Pants, Shorts, Sweatshirt, TShirt]",ls.toString());
-    /*
+    
     //R2
 	sports.addProduct("p1", "Trekking", "Pants");
 	sports.addProduct("p2", "Swimming", "Swimsuit");
@@ -91,6 +91,6 @@ public void test() throws SportsException {
     
     SortedMap<Double, List<String>> sml = sports.getProductsPerStars();
     assertEquals("{4.0=[p2], 2.0=[p0, p1]}", sml.toString());
-    */
+    
 }
 }

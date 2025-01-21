@@ -2,7 +2,7 @@
 
 The program implements the back-end of a sport equipment evaluation portal.
 
-All the classes are located in `sports` package. The main class is `Sports`. The class `TestApp` in the package `example` contains an example. The exceptions are thrown using the class `SportsException`.
+All the classes are located in `sports` package. The main class is `Sports`. The class `TestApp` contains a set of test cases for each of the following requirements. The exceptions are thrown using the class `SportsException`.
 
 ---
 
